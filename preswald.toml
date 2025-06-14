@@ -1,0 +1,20 @@
+[project]
+title = "Powerball Winning Numbers"
+version = "0.1.0"
+port = 8501
+slug = "{project_slug}"
+entrypoint = "hello.py"
+
+[branding]
+name = "Powerball Winning Numbers"
+logo = "images/lottery_logo.png"
+favicon = "images/lottery.ico"
+primaryColor = "#F89613"
+
+[data.lottery_numbers]
+type = "csv"
+path = "data/lottery_numbers.csv"
+
+[logging]
+level = "INFO"
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s" 
